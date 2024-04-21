@@ -41,7 +41,9 @@ export default function Menu() {
       <div className="w-full flex justify-between items-center pt-6 px-3 lg:px-8">
         <div className="flex items-center gap-x-10">
           <div>
+            <a href="">
             <img src="./public/images/logo.svg" alt="" />
+            </a>
           </div>
           <ul className="hidden lg:flex items-center gap-x-10 capitalize">
             <li className="relative group transition-all duration-300">
@@ -125,10 +127,10 @@ export default function Menu() {
                 </li>
               </ul>
             </li>
-            <li>
+            <li className="hover:font-bold">
               <a href="#">careers</a>
             </li>
-            <li>
+            <li className="hover:font-bold">
               <a href="#">about</a>
             </li>
           </ul>
@@ -140,8 +142,8 @@ export default function Menu() {
             className="lg:hidden cursor-pointer"
             alt=""
           />
-          <button className="hidden lg:block capitalize">login</button>
-          <button className="hidden lg:flex capitalize  justify-center items-center border-[1px] rounded-md px-6 py-2 border-mediumGrey">
+          <button className="hidden lg:block capitalize hover:font-bold transition-all duration-200">login</button>
+          <button className="hidden lg:flex capitalize  justify-center items-center border-[1px] rounded-md px-6 py-2 border-mediumGrey hover:border-black hover:border-2 transition-all duration-200">
             register
           </button>
         </div>
