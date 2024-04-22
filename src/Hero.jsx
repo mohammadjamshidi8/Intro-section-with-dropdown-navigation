@@ -1,3 +1,8 @@
+import databiz from '/public/images/client-databiz.svg'
+import audiophile from '/public/images/client-audiophile.svg'
+import meet from '/public/images/client-meet.svg'
+import maker from '/public/images/client-maker.svg'
+
 export default function Hero() {
   return (
     <>
@@ -20,22 +25,22 @@ export default function Hero() {
 
           <div className="flex gap-x-3 lg:gap-x-14 w-11/12">
             <img
-              src="./public/images/client-databiz.svg"
+              src={databiz}
               className="aspect-video object-contain w-1/4"
               alt=""
             />
             <img
-              src="./public/images/client-audiophile.svg"
+              src={audiophile}
               className="aspect-video object-contain w-1/4"
               alt=""
             />
             <img
-              src="./public/images/client-meet.svg"
+              src={meet}
               className="aspect-video object-contain w-1/4"
               alt=""
             />
             <img
-              src="./public/images/client-maker.svg"
+              src={maker}
               className="aspect-video object-contain w-1/4"
               alt=""
             />

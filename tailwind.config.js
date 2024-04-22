@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -12,8 +13,8 @@ export default {
         almostgray : 'hsl(0, 0%, 8%)'
       },
       backgroundImage: {
-        desktop: "url('./public/images/image-hero-desktop.png')",
-        mobile: "url('./public/images/image-hero-mobile.png')",
+        desktop: "url('/public/images/image-hero-desktop.png')",
+        mobile: "url('/public/images/image-hero-mobile.png')",
       },
       fontFamily: {
         Epilogue : ['Epilogue']
