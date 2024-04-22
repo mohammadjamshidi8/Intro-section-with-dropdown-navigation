@@ -1,7 +1,7 @@
 import databiz from '/public/images/client-databiz.svg'
 import audiophile from '/public/images/client-audiophile.svg'
 import meet from '/public/images/client-meet.svg'
-import maker from '/public/images/client-maker.svg'
+import maker from './public/images/client-maker.svg'
 
 export default function Hero() {
   return (
